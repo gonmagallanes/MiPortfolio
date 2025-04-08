@@ -5,17 +5,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gonzalo Magallanes</title>
     <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./package-lock.json" />
+    <link rel="stylesheet" href="./package.json" />
   </head>
   <body class="styleBody">
     <header class="headerStyle">
-      <img class="fotoGonzalo" src="./images/FotoCV.jpg" alt="fotoGonzalo" />
-      <h2 class="textoInicio">Hola soy Gonzalo Magallanes y este es mi portfolio :)</h2>
+      <div class="efectoPerfil">
+        <h2 class="textoInicio">Gonzalo Magallanes</h2>
+        <h3 style="color: #e2e8dd">Estudiante de Sistemas</h3>
+      </div>
+      <nav class="navNav">
+        <a class="link navText" href="#sobreMi"> Sobre mí </a>
+        <a class="link navText" href="#habilidades"> Habilidades </a>
+        <a class="link navText" href="#proyectos"> Proyectos </a>
+        <a class="link navText" href=""> Contacto</a>
+      </nav>
     </header>
     <main class="mainStyle">
-      <h1>ONICHAN</h1>
+      <section id="sobreMi">
+        <div class="mainDescripcion">
+          <img class="fotoGonzalo" src="./images/FotoCV.jpg" alt="fotoGonzalo" />
+          <h2>¡Hola! Mi nombre es Gonzalo Magallanes y estudio en el Tupac</h2>
+        </div>
+      </section>
+      <hr />
+      <section class="mainSkills" id="habilidades">
+        <div>
+          <h1 class="mainTextSkills">Mis habilidades</h1>
+        </div>
+        <div class="centerColumnas">
+          <div class="columnasSkills">
+            <h2 class="textSkills">Habilidades Tecnicas</h2>
+            <h2 class="textSkills">Habilidades Blandas</h2>
+            <ul>
+              <li>JavaScript</li>
+              <li>HTML5</li>
+              <li>CSS3</li>
+            </ul>
+            <ul>
+              <li>Resolucion de Problemas</li>
+              <li>Comunicacion</li>
+              <li>Trabajo en equipo</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <hr />
+      <section id="proyectos" class="mainProyectos">
+        <div>
+          <h1 class="proyectoHeader">Mis proyectos</h1>
+        </div>
+        <div class="proyectoGrid">
+          <a target="_blank" href="https://gonmagallanes.github.io/superMercadoJS/"><img class="fotoProyectos" src="./images/superJS.jpeg" alt="supermercado" /></a>
+          <a target="_blank" href="https://gonmagallanes.github.io/NBA_Store/"><img class="fotoProyectos" src="./images/storeNBA.jpeg" alt="NBA_Store" /></a>
+          <a target="_blank" href="https://gonmagallanes.github.io/ProfesoresTemplate/"><img class="fotoProyectos" src="./images/profesTemplate.jpeg" alt="TemplateProfesores" /></a>
+          <a target="_blank" href="https://gonmagallanes.github.io/TablaSistemas/"> <img class="fotoProyectos" src="./images/tablaSistemas.jpeg" alt="Tabla Sistemas" /></a>
+        </div>
+      </section>
     </main>
-    <footer>
-      <h1></h1>
-    </footer>
+    <footer id="footer"></footer>
   </body>
 </html>
