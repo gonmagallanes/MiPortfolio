@@ -41,6 +41,7 @@
   
 }
 
+
 .efectoPerfil {
     display: flex;
     flex-direction: column;
@@ -77,7 +78,30 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 5vw;
+    margin-top: 5vw;
+}
+
+.CVbutton{
+    background-color: #4E5340;
+    padding:16px;
+    border-radius: 10px;
+    transition: 0.3s;
+    border: none;
+}
+
+.CVbutton:hover{
+    background-color: #697268;
+    padding: 18px;
+    
+}
+
+.CVlink{
+    color: white;
+    text-decoration: none;
+}
+
+.CVlink:hover{
+    color: black;
 }
 
 .mainSkills{
